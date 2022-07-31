@@ -26,18 +26,18 @@
   height: 50px;
   margin: 12px;
   border-radius: 50px;
-  right: 0px;
+  right: 5px;
   border: none;
   font-size: 15px;
-  background-color: #2f74c0;
   color: white;
   transition: 0.2s all;
-  box-shadow: 0 0 10px black;
   cursor: pointer;
+  background-color: #84a98c;
+  box-shadow: 0 0 5px black;
 }
 
 .input_submit:hover {
-  background-color: #388ae2;
+  background-color: #52796f;
 }
 
 .input_submit:active {

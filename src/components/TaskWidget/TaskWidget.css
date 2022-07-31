@@ -1,0 +1,47 @@
+.tasks__single {
+  display: flex;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 15px;
+  background-color: #354f52;
+  width: 95%;
+}
+
+.tasks__single:hover {
+  box-shadow: 0 0 5px black;
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.tasks__single--text,
+.tasks__single--edit {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 30px;
+  color: white;
+}
+
+.tasks__single--edit {
+  color: black;
+  font-size: 25px;
+}
+
+.tasks__single--text:focus {
+  outline: none;
+}
+
+.icon {
+  margin-left: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.drag {
+  box-shadow: 0 0 25px black;
+}
+
+.icons {
+  color: white;
+}
